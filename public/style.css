@@ -1,0 +1,39 @@
+/* Center intro ONLY on homepage */
+.home .content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Intro block */
+.home .content > * {
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Profile image */
+.home img {
+  display: block;
+  margin: 0 auto 24px auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Slight zoom for avatar */
+.home img {
+  transform: scale(1.2);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  max-width: 540px;      /* controls form width */
+  margin: 40px 0;    /* centers the form */
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+}
